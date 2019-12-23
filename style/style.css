@@ -1,0 +1,703 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+  }
+  body{
+      width: 1920;
+  }
+  .container{
+      width: 62.5%;
+      margin: 0 auto;
+  }
+  header{
+      width: 100%;
+      background-image: url(../Suntech-PTS/slide.jpg);
+      background-size: cover;
+      height: 1000px;
+  }
+
+  /*--------- Top-header -------------*/
+  header .top-header{
+      padding-top: 29px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .top-header .menu-header{
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .top-header .menu-header a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  .menu-header a:first-child{
+      color: #fce38a;
+      border-bottom: 2px solid  #fce38a;
+  }
+  .menu-header a:hover{
+    color: #fce38a;
+    border-bottom: 2px solid  #fce38a;
+  }
+
+   /*--------- Mid-header -------------*/
+   .mid-header{
+       position: relative;
+       height: 860px;
+   }
+   .mid-header .text-mid{
+    width: 70%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+   }
+   .text-mid p:nth-child(1){
+    font-family: 'Kaushan Script', cursive;
+    font-size: 72px;
+    line-height: 72px;
+    color: white;
+    margin-bottom: 55px;
+   }
+   .text-mid p:nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+    line-height: 140px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 72px;
+   }
+   .text-mid hr{
+       width: 7%;
+       height: 2px;
+       background-color: white;
+       margin: 0 auto;
+       border: none;
+       margin-bottom: 50px;
+   }
+   .text-mid button{
+       font-size: 14px;
+       width: 156px;
+       height: 40px;
+       line-height: 40px;
+       border:  1px solid white;
+       color: white;
+       background: transparent;
+   }
+   /*--------- Bot-header -------------*/
+   .bot-header{
+    height: 80px;
+   }
+   .bot-header .hori{
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 30px;
+   }
+   .hori .hori1{
+       width: 24%;
+       height: 3px;
+       background-color: white;
+       display: flex;
+   }
+   .hori1 .hori-1a{
+       width: 30%;
+       background-color: red;
+   }
+   .bot-header .text-bot{
+       display: flex;
+       justify-content: space-between;
+   }
+   .text-bot-1{
+       width: 24%;
+   }
+   .text-bot .text-bot-1 span{
+        
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+   }
+   .text-bot-1 span:nth-child(1){
+    font-size: 20px;
+       font-weight: bold;
+   }
+   .text-bot-1 span:nth-child(2){
+       font-size: 18px;
+   }
+   /*--------- Story -------------*/
+   .text-story{
+       text-align: center;
+       padding-top:  90px;
+   }
+   .text-story p:nth-child(1){
+    font-family: 'Kaushan Script', cursive;
+        font-size: 24px;
+        margin-bottom: 10px;
+   }
+   .text-story p:nth-child(2){
+    font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+   }
+   .text-story hr{
+       width: 5%;
+       height: 3px;
+       background-color: #F59696;
+       margin: 40px auto;
+   }
+   .container #lorem{
+       width: 80%;
+       text-align: center;
+       margin: 0 auto;
+       color: #999999;
+       font-size: 15px;
+   }
+   .img-story{
+       display: flex;
+       justify-content: space-between;
+       margin: 95px 0;
+   }
+   .img-story-1{
+       width: 33%;
+   }
+   .img-story-1:nth-child(1) img{
+       box-shadow:  10px 10px 2px #95E1D3;
+   }
+   /*--------- NUMBER -------------*/
+   .number{
+       background-color: #95E1D3;
+
+   }
+   .number .container{
+       display: flex;
+       justify-content: space-between;
+   }
+   .container .number1{
+       width: 16%;
+       font-family: 'Montserrat', sans-serif;
+       color: white;
+       margin: 90px 0;
+       text-align: center;
+   }
+   .number1 p:nth-child(1){
+        font-size: 72px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-shadow: 0px 4px, 4px 0px, 4px 4px;
+        letter-spacing: 10px;
+   }
+   .number1 p:nth-child(2){
+    font-size: 14px;
+   }
+   /*--------- Story 2 -------------*/
+   .img-story2{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+   }
+   .img-story2 .img-story-2{
+       width: 31%;
+       display: flex;
+       justify-content: space-between;
+       margin: 20px 0;
+   }
+   .story-left{
+       width: 30%;
+       color: #95E1D3;
+       font-size: 50px;
+       text-align: center;
+   }
+   .story-right{
+       width: 70%;
+   }
+   .story-right p{
+       color: #D0D0D0;
+   }
+   .story-hr{
+       margin: 40px 0;
+      
+   }
+   .img-story2:last-child{
+       margin-bottom: 80px;
+   }
+   /*--------- iphone -------------*/
+   .iphone{
+       height: 850px;
+       background-image: url(../Suntech-PTS/Untitled-1.jpg);
+       background-size: cover;
+       position: relative;
+   }
+   .iphone #ipad{
+        position: absolute;
+        left: 37%;
+        top: 31.5%;
+   }
+   .iphone #iphone6{
+    position: absolute;
+    left: 59%;
+    top: 55%;
+   }
+   /*--------- Story 3 -------------*/
+   .img-story3 {
+       display: flex;
+       justify-content: space-between;
+       margin-top: 80px;
+       margin-bottom: 120px;
+   }
+   .story-3-left{
+       width: 49%;
+   }
+   .story-3-right{
+       width: 50%;
+   }
+   .story-3-right .photography{
+       display: flex;
+       justify-content: space-evenly;
+       border: 1px solid rgb(148, 148, 148);
+       line-height: 58px;
+       height: 58px;
+       padding-left: 15px;
+   }
+   .photo-img{
+       width: 10%;
+       color: #95E1D3;
+       font-size: 36px;
+   }
+   .photo-text{
+       width: 80%;
+       font-family: 'Montserrat', sans-serif;
+       font-size: 14px;
+       color: rgb(97, 96, 96);
+   }
+   .photo-arrow{
+       width: 10%;
+       color: gray;
+       text-align: center;
+   }
+   .lorem2{
+       display: flex;
+       justify-content: space-between;
+       padding : 10px;
+       height: 180px;
+       border: 1px solid rgb(148, 148, 148);
+   }
+   .lorem-text{
+    width: 90%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    padding: 10px;
+    font-style: italic;
+   }
+   .lorem-scroll{
+       height: 100%;
+       width: 5px;
+       background-color: #F5F5F5;
+       border-radius: 5px;
+       margin-right: 10px;
+   }
+   .sub-scroll{
+       height: 70%;
+       width: 5px;
+       background-color: #95E1D3;
+       border-radius: 5px;
+   }
+   .creative{
+       margin-top: 14px;
+   }
+   .creative-img i{
+       transform: rotate(90deg);
+   }
+   /*--------- Message -------------*/
+   .message{
+       background-color: #F8F8F8;
+       height: 289px;
+       position: relative;
+    }
+   .message .container{
+       display: flex;
+       justify-content: space-around;
+       position: absolute;
+       top:50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       height: 154px;
+       text-align: center;
+       align-items: center;
+   }
+   .mess-arrow{
+       width: 20%;
+       padding: 5px;
+   }
+   .message-icon{
+        height: 150px;
+        line-height: 150px;
+       width: 38%;
+       color: #95E1D3;
+       border: 2px solid #95E1D3 ;
+       font-size: 60px;
+        margin-left: 30px;
+        margin-right: 10px;
+        
+   }
+   .message-text{
+       margin-left: 20px;
+       height: 150px;
+       display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+   }
+.mess-lorem{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #999999;
+    line-height: 25px;
+    font-style: italic;
+    text-align: left;
+    
+   }
+   .mess-author{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+   }
+   .mess-author span:nth-child(1){
+       width: 5%;
+       background-color: red;
+       height: 2px;
+       border-radius: 5px;
+       margin-right: 15px;
+   }
+   .mess-author span:nth-child(2){
+    font-family: 'Kaushan Script', cursive;
+   }
+   /*--------- LOgo -------------*/
+   .logo{
+    background-color: #F5F5F5;
+    height: 289px;
+    display: flex;
+    align-items: center;
+   }
+
+   .logo img{
+       height: 100%;
+   }
+   /*--------- story 4 -------------*/
+   .img-story-text{
+       margin-top: 30px;
+       text-align: center;
+       margin-bottom: 50px;
+   }
+   .img-story-text p{
+    font-family: 'Montserrat', sans-serif;
+   }
+   .img-story-text p:nth-child(1){
+       font-size: 15px;
+       font-weight: bold;
+   }
+   .img-story-text p:nth-child(2){
+       font-size: 14px;
+       color: #999999;
+   }
+   /*--------- Story 5 -------------*/
+   .img-story-full{
+       margin-top: 100px;
+       display: flex;
+       justify-content: center;
+   }
+   .full-img-1{
+       width: 25%;
+       display: flex;
+       flex-direction: column;
+   }
+   .full-img-2{
+       width: 100%;
+   }
+   .full-img-2 img{
+       width: 100%;
+       height: 10%;
+   }
+   .full-img-2 .full-img-top{
+       height: 100%;
+   }
+   .full-img-top img{
+       height:100%;
+   }
+   .full-img-1 .full-img-top{
+       height: 50%;
+   }
+   /*--------- ACcount -------------*/
+   .account{
+       margin-top: 96px;
+       margin-bottom: 96px;
+   }
+   .account .container{
+       display: flex;
+       justify-content: center;
+   }
+   .account-icon{
+       width: 25%;
+   }
+   .account-text{
+       width: 75%;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+   }
+.account .mess-lorem{
+    font-size: 20px;
+    line-height: 30px;
+}
+   /*--------- story 5 -------------*/
+   .member{
+       background-image: url(../Suntech-PTS/Untitled-1.jpg);
+       background-size: cover;
+   }
+   .members{
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+       margin-top: 90px;
+       padding-bottom: 80px;
+   }
+   .member-1{
+       width: 49%;
+       display: flex;
+       justify-content: space-between;
+       margin-bottom: 50px;
+   }
+   .member-img{
+    width: 25%;
+    margin-left: 20px;
+    }
+    .member-img img{
+     width: 100%;
+     height: auto;
+    }
+    .member-infor{
+        width: 60%;
+    }
+    .member-infor p{
+        font-family: 'Montserrat', sans-serif;
+    }
+    .member-infor p:nth-child(1){
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .member-infor p:nth-child(2){
+        font-size: 14px;
+       color: #999999;
+       margin-bottom: 10px;
+    }
+    .infor{
+        font-size: 18px;
+       color: #6b6b6b;
+    }
+    #member-hr{
+        width: 15%;
+        height: 3px;
+        border-radius: 5px;
+        background-color: red;
+        margin-bottom: 10px;
+    }
+   /*--------- Story 6 -------------*/
+   .comment{
+       padding-bottom: 40px;
+   }
+   .img-story-6{
+       width: 33%;
+       position: relative;
+   }
+   .img-date{
+       width: 61px;
+       height: 72px;
+       background-color: #95E1D3;
+       font-family: 'Montserrat', sans-serif;
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       position: absolute;
+       top: 40%;
+       left: -2%;
+   }
+   .img-date p:nth-child(1){
+       font-weight: bold;
+       font-size: 24px;
+   }
+   .text-6a{
+       font-size: 25px;
+       margin: 10px 0;
+   }
+   .text-6b{
+       font-size: 20px;
+       color: #999999;
+       margin-bottom: 20px;
+   }
+   .img-status{
+       display: flex;
+       justify-content: flex-start;
+   }
+   .status-seen{
+       display: flex;
+       justify-content: flex-start;
+       margin-right: 20px;
+   }
+   .status-seen i{
+       color: #95E1D3;
+       margin-right: 10px;
+   }
+   .status-seen span{
+       color: #999999;
+   }
+   /*--------- map -------------*/
+   .map{
+       height: 200px;
+       background-image: url(../Suntech-PTS/Untitled-1.jpg);
+       background-size: cover;
+       background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .position{
+       width: 30%;
+       margin: 0 auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       text-align: center;
+       color: #F38181;
+   }
+   .position i{
+       font-size: 25px;
+   }
+   .position span{
+       margin-bottom: 10px;
+       margin-top: 10px;
+       font-family: 'Montserrat', sans-serif;
+       font-weight: bold;
+   }
+   .position hr{
+       width: 10%;
+       height: 3px;
+       border-radius: 5px;
+       background-color: #F38181;
+       margin:  10px auto;
+   }
+   /*--------- top-footer-------------*/
+.top-footer .container{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 75px;
+}
+.footer-left{
+    width: 42.5%;
+    padding-right: 60px;
+}
+.footer-left h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: #999999;
+}
+.text-footer-1a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: #999999;
+}
+.text-footer-1b{
+    margin-bottom: 20px;
+}
+.follow{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.follow span{
+    color: #999999;
+    margin-right: 15px;
+}
+.follow i{
+    color: #95E1D3;
+    margin-right: 10px;
+}
+.subcribe{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.subcribe input{
+    border: 1px solid gray;
+    width: 70%;
+    height: 100%;
+}
+.subcribe button{
+    width: 30%;
+    background-color: #95E1D3;
+    border: none;
+    font-size: 17px;
+    color: white;
+}
+
+.footer-mid{
+    width: 35%;
+    padding-right: 10px;
+}
+.top-footer h2{
+    margin-bottom: 20px;
+}
+.blog-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+.blog-img{
+    width: 35%;
+}
+.blog-text{
+    width: 65%;
+    padding-left: 20px;
+}
+.blog-text p:nth-child(1){
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: rgb(94, 93, 93);
+}
+.blog-text p:nth-child(2){
+    color: #999999;
+    font-size: 14px;
+}
+
+.footer-right{
+    padding-left: 50px;
+    width: 22.5% ;
+}
+.insta-img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.insta-img img{
+    width: 33%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+   /*--------- footer -------------*/
+footer{
+ text-align: center;
+ padding-top: 23px;
+ padding-bottom: 23px;
+}
+footer a{
+    text-decoration: none;
+    color: #F77E7E;
+}
